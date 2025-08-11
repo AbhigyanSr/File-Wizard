@@ -16,7 +16,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::basu-doc-frontend/*"
+            "Resource": "arn:aws:s3:::file-wizard-webhosting/*"
         }
     ]
   }
