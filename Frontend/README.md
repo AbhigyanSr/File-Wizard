@@ -3,7 +3,7 @@
 - Create Bucket, disable `Block all public access`, enable ACL.
 - Under Objects upload `index.html`. Select the file > select Actions > select `Make Public using ACL`
 
-  ![image](https://github.com/SourasishBasu/File-Wizard/assets/89185962/54d0670f-52f8-4651-b17e-ec4d0f2bd921)
+  ![image](https://github.com/AbhigyanSr/File-Wizard/blob/207e889c2571a4c8cbbf56dd352d11c5c2df4ff9/assets/publicACL.png)
 
 - Under Permissions > Bucket Policy add:
   
