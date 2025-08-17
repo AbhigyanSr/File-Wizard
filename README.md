@@ -66,12 +66,18 @@ Assign an IAM role to the instance with permissions to GetObject from the input 
 Configure the instance's Security Group to allow inbound TCP traffic on your chosen port (e.g., 8000) and SSH (port 22).<br>
 <br>
 SSH into the instance and install dependencies:<br>
+
+```bash
 sudo apt update && sudo apt upgrade -y<br>
 sudo apt install -y python3-pip pandoc<br>
 pip3 install flask boto3 pypandoc docx2pdf<br>
+```
 <br>
 Copy the application code from scripts/ and run it as a background process:<br>
+
+```bash
 nohup python3 docxconverter_app.py > docx.log 2>&1 &
+```
 
 [!NOTE]
 The logs for the application will be saved to docx.log in the same directory.
